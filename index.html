@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Complete guide to JAKIM Halal Certification for cosmetics in Malaysia - HH Herb & Health market entry strategy">
+    <title>JAKIM Halal Certification Guide | HH Herb & Health</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            /* Soft Pastel Color Palette */
+            --pastel-blue: #E6F3FF;
+            --pastel-purple: #F3E8FF;
+            --pastel-pink: #FFE4E6;
+            --pastel-green: #E8F5E8;
+            --pastel-yellow: #FFF9E6;
+            --pastel-coral: #FFE8D6;
+            --pastel-teal: #E6F7F7;
+            --pastel-lavender: #F0E6FF;
+            
+            --accent-blue: #A8D8EA;
+            --accent-purple: #C5B4E3;
+            --accent-pink: #FFB3BA;
+            --accent-green: #B8E6B8;
+            --accent-yellow: #FFE5A3;
+            --accent-coral: #FFCBA4;
+            
+            --white: #FFFFFF;
+            --light-gray: #FAFAFA;
+            --border-gray: #E5E7EB;
+            --text-primary: #2C3E50;
+            --text-secondary: #6B7280;
+            --text-light: #9CA3AF;
+            
+            --shadow-soft: 0 2px 8px rgba(0, 0, 0, 0.06);
+            --shadow-medium: 0 4px 12px rgba(0, 0, 0, 0.08);
+            --shadow-large: 0 8px 24px rgba(0, 0, 0, 0.1);
+            
+            --font-primary: 'Inter', sans-serif;
+            --font-display: 'Playfair Display', serif;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: var(--font-primary);
+            background: var(--white);
+            color: var(--text-primary);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+        
+        /* Subtle Pattern Background */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 20% 80%, var(--pastel-blue) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, var(--pastel-purple) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, var(--pastel-yellow) 0%, transparent 50%);
+            opacity: 0.3;
+            z-index: -1;
+            pointer-events: none;
+        }
+        
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: var(--white);
+            border-bottom: 1px solid var(--border-gray);
+            box-shadow: var(--shadow-soft);
+            z-index: 1000;
+            padding: 1.2rem 0;
+            transition: all 0.3s ease;
+        }
+        
+        nav.scrolled {
+            padding: 0.8rem 0;
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .nav-logo {
+            font-family: var(--font-display);
+            font-size: 1.7rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            position: relative;
+        }
+        
+        .nav-logo::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 40px;
+            height: 3px;
+            background: var(--accent-blue);
+            border-radius: 2px;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 0.5rem;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            padding: 0.6rem 1.2rem;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-links a:hover {
+            background: var(--pastel-blue);
+            color: var(--text-primary);
+        }
+        
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--pastel-blue) 0%, var(--pastel-purple) 100%);
+            padding: 7rem 0 5rem;
+            text-align: center;
+            margin-top: 70px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background: linear-gradient(to top, var(--white), transparent);
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero h1 {
+            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            color: var(--text-secondary);
+            margin-bottom: 3rem;
+            font-weight: 400;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+            margin: 3rem 0;
+        }
+        
+        .stat-card {
+            background: var(--white);
+            padding: 2rem 1.5rem;
+            border-radius: 16px;
+            box-shadow: var(--shadow-medium);
+            border: 1px solid var(--border-gray);
+            transition: all 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-large);
+            border-color: var(--accent-blue);
+        }
+        
+        .stat-card:nth-child(1) { border-top: 4px solid var(--accent-blue); }
+        .stat-card:nth-child(2) { border-top: 4px solid var(--accent-purple); }
+        .stat-card:nth-child(3) { border-top: 4px solid var(--accent-green); }
+        .stat-card:nth-child(4) { border-top: 4px solid var(--accent-coral); }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-label {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: var(--accent-coral);
+            color: var(--text-primary);
+            padding: 1.2rem 3rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-medium);
+            margin-top: 1rem;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-large);
+            background: var(--accent-yellow);
+        }
+        
+        /* Section Styles */
+        section {
+            padding: 5rem 0;
+            background: var(--white);
+        }
+        
+        section:nth-child(even) {
+            background: var(--light-gray);
+        }
+        
+        .section-title {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            text-align: center;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background: var(--accent-blue);
+            border-radius: 2px;
+        }
+        
+        .section-subtitle {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            text-align: center;
+            margin-bottom: 3.5rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /* Content Cards */
+        .content-card {
+            background: var(--white);
+            padding: 2.5rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow-soft);
+            border: 1px solid var(--border-gray);
+            transition: all 0.3s ease;
+        }
+        
+        .content-card:hover {
+            box-shadow: var(--shadow-medium);
+            transform: translateY(-2px);
+        }
+        
+        .content-card h3 {
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 1.2rem;
+            position: relative;
+            padding-bottom: 0.8rem;
+        }
+        
+        .content-card h3::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            height: 2px;
+            background: var(--accent-purple);
+            border-radius: 1px;
+        }
+        
+        .content-card p {
+            color: var(--text-primary);
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        
+        /* Phase Cards */
+        .phases-grid {
+            display: grid;
+            gap: 2.5rem;
+            margin-top: 2rem;
+        }
+        
+        .phase-card {
+            background: var(--white);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--shadow-medium);
+            border: 1px solid var(--border-gray);
+            transition: all 0.3s ease;
+        }
+        
+        .phase-card:hover {
+            box-shadow: var(--shadow-large);
+            transform: translateY(-3px);
+        }
+        
+        .phase-header {
+            padding: 2rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+        
+        .phase-card:nth-child(1) .phase-header { background: var(--pastel-blue); }
+        .phase-card:nth-child(2) .phase-header { background: var(--pastel-purple); }
+        .phase-card:nth-child(3) .phase-header { background: var(--pastel-teal); }
+        .phase-card:nth-child(4) .phase-header { background: var(--pastel-coral); }
+        
+        .phase-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        
+        .phase-toggle {
+            font-size: 1.8rem;
+            color: var(--text-primary);
+            font-weight: 300;
+            transition: transform 0.3s ease;
+        }
+        
+        .phase-header:hover .phase-toggle {
+            transform: scale(1.1);
+        }
+        
+        .phase-content {
+            padding: 2.5rem;
+            display: none;
+            background: var(--white);
+        }
+        
+        .phase-content.active {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .phase-meta {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+            padding: 2rem;
+            background: var(--pastel-yellow);
+            border-radius: 8px;
+            border: 1px dashed var(--accent-yellow);
+        }
+        
+        .meta-item {
+            text-align: center;
+        }
+        
+        .meta-label {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .meta-value {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+        
+        /* Lists */
+        .styled-list {
+            list-style: none;
+            margin: 1.5rem 0;
+        }
+        
+        .styled-list li {
+            padding: 1rem 0 1rem 2.5rem;
+            position: relative;
+            line-height: 1.8;
+            border-bottom: 1px solid var(--border-gray);
+        }
+        
+        .styled-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .styled-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            width: 24px;
+            height: 24px;
+            background: var(--accent-green);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-primary);
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        .warning-list li:before {
+            content: "⚠";
+            background: var(--accent-pink);
+        }
+        
+        /* Highlight Box */
+        .highlight-box {
+            background: var(--pastel-yellow);
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 2rem 0;
+            border-left: 4px solid var(--accent-yellow);
+            border: 1px solid var(--accent-yellow);
+        }
+        
+        .highlight-box h4 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+        
+        /* Table */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background: var(--white);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--shadow-medium);
+            border: 1px solid var(--border-gray);
+        }
+        
+        .data-table thead {
+            background: var(--pastel-blue);
+        }
+        
+        .data-table th {
+            padding: 1.3rem;
+            text-align: left;
+            color: var(--text-primary);
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        
+        .data-table td {
+            padding: 1.2rem;
+            border-bottom: 1px solid var(--border-gray);
+            color: var(--text-primary);
+        }
+        
+        .data-table tbody tr:hover {
+            background: var(--light-gray);
+        }
+        
+        .data-table tbody tr:last-child {
+            font-weight: 600;
+            background: var(--pastel-yellow);
+        }
+        
+        .data-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+        
+        /* Timeline */
+        .timeline-wrapper {
+            margin: 3rem 0;
+            padding: 3rem;
+            background: var(--white);
+            border-radius: 12px;
+            box-shadow: var(--shadow-medium);
+            border: 1px solid var(--border-gray);
+        }
+        
+        .timeline-item {
+            display: flex;
+            align-items: stretch;
+            margin: 2rem 0;
+            gap: 1.5rem;
+        }
+        
+        .timeline-label {
+            min-width: 120px;
+            font-weight: 600;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            font-size: 0.9rem;
+            padding-right: 1rem;
+            border-right: 2px solid var(--border-gray);
+        }
+        
+        .timeline-bar {
+            height: 50px;
+            border-radius: 25px;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            padding: 0 1.5rem;
+            color: var(--text-primary);
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+        }
+        
+        .timeline-bar:hover {
+            transform: translateX(5px);
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .timeline-item:nth-child(1) .timeline-bar {
+            background: var(--pastel-blue);
+            border: 1px solid var(--accent-blue);
+        }
+        
+        .timeline-item:nth-child(2) .timeline-bar {
+            background: var(--pastel-purple);
+            border: 1px solid var(--accent-purple);
+        }
+        
+        .timeline-item:nth-child(3) .timeline-bar {
+            background: var(--pastel-teal);
+            border: 1px solid var(--accent-green);
+        }
+        
+        .timeline-item:nth-child(4) .timeline-bar {
+            background: var(--pastel-coral);
+            border: 1px solid var(--accent-coral);
+        }
+        
+        .timeline-item:nth-child(5) .timeline-bar {
+            background: var(--pastel-green);
+            border: 1px solid var(--accent-green);
+        }
+        
+        /* Challenge Cards */
+        .challenges-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .challenge-card {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow-soft);
+            border: 1px solid var(--border-gray);
+            border-top: 4px solid var(--accent-pink);
+            transition: all 0.3s ease;
+        }
+        
+        .challenge-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .challenge-card h4 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+        
+        /* Action Cards */
+        .action-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .action-card {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow-soft);
+            border: 1px solid var(--border-gray);
+            border-left: 4px solid var(--accent-green);
+            transition: all 0.3s ease;
+        }
+        
+        .action-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .action-card h4 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 1.2rem;
+        }
+        
+        .action-card ol {
+            padding-left: 1.5rem;
+        }
+        
+        .action-card li {
+            margin: 0.8rem 0;
+            line-height: 1.7;
+            color: var(--text-primary);
+        }
+        
+        /* Loading */
+        .loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--white);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease;
+        }
+        
+        .loader.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+        
+        .loader-spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid var(--pastel-blue);
+            border-top-color: var(--accent-blue);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 1rem;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .nav-links {
+                justify-content: center;
+                width: 100%;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .timeline-label {
+                min-width: 80px;
+                font-size: 0.85rem;
+            }
+            
+            .timeline-bar {
+                font-size: 0.85rem;
+                padding: 0 1rem;
+            }
+            
+            .challenges-grid,
+            .action-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <p style="color: var(--text-secondary); font-weight: 500;">Loading Guide...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">JAKIM Halal Guide</div>
+            <ul class="nav-links">
+                <li><a href="#understanding">Overview</a></li>
+                <li><a href="#phases">4 Phases</a></li>
+                <li><a href="#investment">Investment</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#next-steps">Next Steps</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>JAKIM Halal Certification Guide</h1>
+                <p>Complete Roadmap for HH Herb & Health's Malaysia Market Entry</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">6-9</div>
+                        <div class="stat-label">Months Timeline</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">RM 580k-1.1M</div>
+                        <div class="stat-label">Total Investment</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">Major Phases</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">2 Years</div>
+                        <div class="stat-label">Cert Validity</div>
+                    </div>
+                </div>
+                
+                <a href="https://docs.google.com/document/d/1qXe_xrRv3O5LVZ1UUk7THpnetNQmpdbVL50zuI5_syU/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="cta-button">📄 View Full Research Documentation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 1: Understanding JAKIM -->
+    <section id="understanding">
+        <div class="container">
+            <h2 class="section-title">Understanding JAKIM Halal Certification</h2>
+            <p class="section-subtitle">What you need to know about the world's most recognized halal standard</p>
+            
+            <div class="content-card">
+                <h3>What is JAKIM?</h3>
+                <p>JAKIM (Jabatan Kemajuan Islam Malaysia) is the Department of Islamic Development Malaysia, the official authority responsible for halal certification in Malaysia. JAKIM halal certification is recognized globally as the gold standard for halal compliance.</p>
+                <p>For cosmetics, the certification is governed by <strong>MS 2200:2008 - Islamic Consumer Goods Part 1: Cosmetic and Personal Care</strong>. This standard ensures products are not just free from prohibited ingredients, but that the entire manufacturing process maintains halal integrity.</p>
+            </div>
+            
+            <div class="content-card">
+                <h3>Why It Matters for HH Herb & Health</h3>
+                <ul class="styled-list">
+                    <li>Access to Malaysia's rapidly growing halal cosmetics market</li>
+                    <li>Export gateway to ASEAN and Muslim-majority countries worldwide</li>
+                    <li>Enhanced consumer trust and brand credibility</li>
+                    <li>Adherence to "Halalan Toyyiban" principle (permissible + wholesome quality)</li>
+                    <li>Competitive advantage in the premium cosmetics segment</li>
+                </ul>
+            </div>
+            
+            <div class="highlight-box">
+                <h4>🎯 The Halalan Toyyiban Principle</h4>
+                <p>JAKIM certification goes beyond checking ingredients. It's a comprehensive system ensuring products are both religiously permissible (halal) AND wholesome/pure (toyyiban). This means rigorous standards for sourcing, manufacturing, storage, and distribution.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: The 4 Phases -->
+    <section id="phases">
+        <div class="container">
+            <h2 class="section-title">The 4-Phase Journey to Certification</h2>
+            <p class="section-subtitle">A structured pathway from legal foundation to certified products</p>
+            
+            <div class="phases-grid">
+                <!-- Phase 1 -->
+                <div class="phase-card">
+                    <div class="phase-header" onclick="togglePhase(this)">
+                        <h3 class="phase-title">Phase 1: Legal & Regulatory Foundation</h3>
+                        <span class="phase-toggle">+</span>
+                    </div>
+                    <div class="phase-content">
+                        <div class="phase-meta">
+                            <div class="meta-item">
+                                <div class="meta-label">Timeline</div>
+                                <div class="meta-value">Month 0-2</div>
+                            </div>
+                            <div class="meta-item">
+                                <div class="meta-label">Investment</div>
+                                <div class="meta-value">RM 500k-1M</div>
+                            </div>
+                        </div>
+                        
+                        <h4>What's Involved</h4>
+                        <ul class="styled-list">
+                            <li>Register Malaysian company (Sdn Bhd) with SSM</li>
+                            <li>Appoint Resident Director (Malaysian citizen/PR)</li>
+                            <li>Register products with NPRA via QUEST 3+ system</li>
+                            <li>Obtain business license from local authority</li>
+                        </ul>
+                        
+                        <h4>Key Requirements</h4>
+                        <ul class="styled-list">
+                            <li>RM 500,000 - 1,000,000 paid-up capital (foreign-owned)</li>
+                            <li>Licensed Company Secretary</li>
+                            <li>Physical registered office address</li>
+                            <li>NPRA cosmetic notification approval</li>
+                        </ul>
+                        
+                        <h4>Deliverables</h4>
+                        <p>✓ SSM Certificate of Incorporation<br>
+                        ✓ NPRA Notification Approval<br>
+                        ✓ Business License</p>
+                    </div>
+                </div>
+                
+                <!-- Phase 2 -->
+                <div class="phase-card">
+                    <div class="phase-header" onclick="togglePhase(this)">
+                        <h3 class="phase-title">Phase 2: Building Internal Halal Integrity</h3>
+                        <span class="phase-toggle">+</span>
+                    </div>
+                    <div class="phase-content">
+                        <div class="phase-meta">
+                            <div class="meta-item">
+                                <div class="meta-label">Timeline</div>
+                                <div class="meta-value">Month 2-5</div>
+                            </div>
+                            <div class="meta-item">
+                                <div class="meta-label">Investment</div>
+                                <div class="meta-value">RM 140k-220k</div>
+                            </div>
+                        </div>
+                        
+                        <h4>What's Involved</h4>
+                        <ul class="styled-list">
+                            <li>Implement Malaysian Halal Management System (MHMS 2020)</li>
+                            <li>Form Internal Halal Committee (IHC)</li>
+                            <li>Recruit and certify Halal Executive</li>
+                            <li>Develop Halal Assurance System (HAS) Manual</li>
+                            <li>Vet ALL ingredient suppliers for halal certification</li>
+                        </ul>
+                        
+                        <div class="highlight-box">
+                            <h4>🇹🇼 THIDA Advantage for Taiwan-Based Companies</h4>
+                            <p>Taiwan Halal Integrity Development Association (THIDA) is JAKIM-recognized! HH Herb & Health can leverage Taiwan suppliers with THIDA certification, significantly simplifying the ingredient vetting process.</p>
+                        </div>
+                        
+                        <h4>Key Requirements</h4>
+                        <ul class="styled-list">
+                            <li>Halal Executive (Muslim Malaysian citizen with diploma/cert)</li>
+                            <li>Internal Halal Committee (min. 4 members)</li>
+                            <li>Complete HAS documentation</li>
+                            <li>Halal certificates for all critical ingredients</li>
+                        </ul>
+                        
+                        <h4>Deliverables</h4>
+                        <p>✓ HAS Manual<br>
+                        ✓ Halal Executive appointed & certified<br>
+                        ✓ IHC formed<br>
+                        ✓ Ingredient halal certificates collected</p>
+                    </div>
+                </div>
+                
+                <!-- Phase 3 -->
+                <div class="phase-card">
+                    <div class="phase-header" onclick="togglePhase(this)">
+                        <h3 class="phase-title">Phase 3: JAKIM Application & Certification</h3>
+                        <span class="phase-toggle">+</span>
+                    </div>
+                    <div class="phase-content">
+                        <div class="phase-meta">
+                            <div class="meta-item">
+                                <div class="meta-label">Timeline</div>
+                                <div class="meta-value">Month 5-9</div>
+                            </div>
+                            <div class="meta-item">
+                                <div class="meta-label">Investment</div>
+                                <div class="meta-value">RM 100-700</div>
+                            </div>
+                        </div>
+                        
+                        <h4>What's Involved</h4>
+                        <ul class="styled-list">
+                            <li>3-month operational requirement (MANDATORY waiting period)</li>
+                            <li>Submit application via MYeHALAL portal</li>
+                            <li>Prepare comprehensive documentation package</li>
+                            <li>Undergo on-site JAKIM audit</li>
+                            <li>Address Non-Conformance Reports (NCR) if issued</li>
+                            <li>Panel review and certification approval</li>
+                        </ul>
+                        
+                        <h4>Critical Requirements</h4>
+                        <ul class="styled-list">
+                            <li>Factory operational for minimum 3 consecutive months</li>
+                            <li>At least 2 Muslim Malaysian citizens in production</li>
+                            <li>Dedicated halal-only production lines</li>
+                            <li>Complete document file (corporate, product, process, personnel)</li>
+                        </ul>
+                        
+                        <h4>Deliverables</h4>
+                        <p>✓ Complete application dossier<br>
+                        ✓ Successful on-site audit<br>
+                        ✓ JAKIM Halal Certificate (2-year validity)</p>
+                    </div>
+                </div>
+                
+                <!-- Phase 4 -->
+                <div class="phase-card">
+                    <div class="phase-header" onclick="togglePhase(this)">
+                        <h3 class="phase-title">Phase 4: Post-Certification Maintenance</h3>
+                        <span class="phase-toggle">+</span>
+                    </div>
+                    <div class="phase-content">
+                        <div class="phase-meta">
+                            <div class="meta-item">
+                                <div class="meta-label">Timeline</div>
+                                <div class="meta-value">Ongoing</div>
+                            </div>
+                            <div class="meta-item">
+                                <div class="meta-label">Cert Validity</div>
+                                <div class="meta-value">2 Years</div>
+                            </div>
+                        </div>
+                        
+                        <h4>What's Involved</h4>
+                        <ul class="styled-list">
+                            <li>Maintain Halal Assurance System (HAS)</li>
+                            <li>Conduct internal audits (minimum annually)</li>
+                            <li>Hold IHC meetings (minimum twice yearly)</li>
+                            <li>Notify JAKIM of any process/ingredient changes</li>
+                            <li>Submit renewal application 3 months before expiry</li>
+                        </ul>
+                        
+                        <h4>Ongoing Obligations</h4>
+                        <ul class="styled-list">
+                            <li>Continuous compliance monitoring</li>
+                            <li>Record keeping (minimum 1 year retention)</li>
+                            <li>Staff training and competency maintenance</li>
+                            <li>Supplier relationship management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Critical Success Factors -->
+    <section id="challenges">
+        <div class="container">
+            <h2 class="section-title">Critical Success Factors</h2>
+            <p class="section-subtitle">What makes or breaks the certification process</p>
+            
+            <div class="challenges-grid">
+                <div class="challenge-card">
+                    <h4>⚠️ Finding Qualified Resident Director</h4>
+                    <p>Must be Malaysian citizen/PR ordinarily residing in Malaysia. This is often the first major hurdle for foreign companies.</p>
+                    <p><strong>Action:</strong> Start recruitment immediately (6-8 week lead time). Consider professional nominee services.</p>
+                </div>
+                
+                <div class="challenge-card">
+                    <h4>⚠️ Ingredient Supplier Vetting</h4>
+                    <p>Every single ingredient needs halal certificate from JAKIM-recognized body. This is the longest task in the entire process.</p>
+                    <p><strong>Action:</strong> Start vetting 6+ months before application. Leverage THIDA for Taiwan suppliers.</p>
+                </div>
+                
+                <div class="challenge-card">
+                    <h4>⚠️ Hiring Halal Executive</h4>
+                    <p>Not an administrative role - this is a senior compliance position requiring specific qualifications and certification.</p>
+                    <p><strong>Action:</strong> Priority recruitment. Must be Muslim Malaysian with diploma/5 years experience.</p>
+                </div>
+                
+                <div class="challenge-card">
+                    <h4>⚠️ 3-Month Operational Requirement</h4>
+                    <p>Factory must operate for 3 consecutive months before JAKIM application. Cannot be waived or accelerated.</p>
+                    <p><strong>Action:</strong> Plan timeline accordingly. Use this period to perfect processes and train staff.</p>
+                </div>
+                
+                <div class="challenge-card">
+                    <h4>⚠️ Audit Readiness</h4>
+                    <p>On-site audit is comprehensive. Paper systems vs. actual practice must match perfectly.</p>
+                    <p><strong>Action:</strong> Conduct thorough mock audits before official JAKIM inspection. Engage consultant for pre-audit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Investment Breakdown -->
+    <section id="investment">
+        <div class="container">
+            <h2 class="section-title">Investment Breakdown</h2>
+            <p class="section-subtitle">Total cost of certification - transparency is key</p>
+            
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Cost Category</th>
+                        <th>Low End</th>
+                        <th>High End</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Paid-up Capital</strong></td>
+                        <td>RM 500,000</td>
+                        <td>RM 1,000,000</td>
+                    </tr>
+                    <tr>
+                        <td>Company Registration & Setup</td>
+                        <td>RM 5,000</td>
+                        <td>RM 10,000</td>
+                    </tr>
+                    <tr>
+                        <td>Halal Consultant (Highly Recommended)</td>
+                        <td>RM 80,000</td>
+                        <td>RM 120,000</td>
+                    </tr>
+                    <tr>
+                        <td>Halal Executive (Annual Salary)</td>
+                        <td>RM 60,000</td>
+                        <td>RM 100,000</td>
+                    </tr>
+                    <tr>
+                        <td>JAKIM Application Fee</td>
+                        <td>RM 100</td>
+                        <td>RM 700</td>
+                    </tr>
+                    <tr>
+                        <td>Training & Certification</td>
+                        <td>RM 10,000</td>
+                        <td>RM 20,000</td>
+                    </tr>
+                    <tr>
+                        <td><strong>TOTAL (Year 1)</strong></td>
+                        <td><strong>RM 655,000+</strong></td>
+                        <td><strong>RM 1,250,000+</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p style="margin-top: 2rem; text-align: center; color: var(--text-secondary); font-style: italic;">
+                * Does not include facility setup, equipment, or operational costs
+            </p>
+        </div>
+    </section>
+
+    <!-- Section 5: Timeline Overview -->
+    <section id="timeline">
+        <div class="container">
+            <h2 class="section-title">Timeline Overview</h2>
+            <p class="section-subtitle">6-9 months from start to certification</p>
+            
+            <div class="timeline-wrapper">
+                <div class="timeline-item">
+                    <div class="timeline-label">Month 0-2</div>
+                    <div class="timeline-bar" style="flex: 0.22;">Phase 1: Foundation Setup</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-label">Month 2-5</div>
+                    <div class="timeline-bar" style="flex: 0.33;">Phase 2: System Building</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-label">Month 5-8</div>
+                    <div class="timeline-bar" style="flex: 0.33;">Phase 3: 3-Month Operation + Application</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-label">Month 8-9</div>
+                    <div class="timeline-bar" style="flex: 0.11;">Audit & Approval</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-label">Month 9+</div>
+                    <div class="timeline-bar">Certified - Ongoing Maintenance</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Key Documents -->
+    <section id="documents">
+        <div class="container">
+            <h2 class="section-title">Key Documents Required</h2>
+            <p class="section-subtitle">What JAKIM needs to see - organized checklist</p>
+            
+            <div class="content-card">
+                <h3>Corporate Documents</h3>
+                <ul class="styled-list">
+                    <li>SSM Registration Certificate</li>
+                    <li>Business License from local authority</li>
+                    <li>Company Annual Financial Statement</li>
+                </ul>
+            </div>
+            
+            <div class="content-card">
+                <h3>Regulatory Compliance</h3>
+                <ul class="styled-list">
+                    <li>NPRA Cosmetic Notification Approval</li>
+                    <li>GMP, HACCP, ISO Certificates (if available)</li>
+                </ul>
+            </div>
+            
+            <div class="content-card">
+                <h3>Product & Ingredients</h3>
+                <ul class="styled-list">
+                    <li>Complete list of all products for certification</li>
+                    <li>Detailed list of all raw materials</li>
+                    <li>Halal certificates for all critical ingredients (from JAKIM-recognized bodies)</li>
+                    <li>Product specifications for non-certified ingredients</li>
+                    <li>Product labels and packaging design</li>
+                </ul>
+            </div>
+            
+            <div class="content-card">
+                <h3>Process & Premises</h3>
+                <ul class="styled-list">
+                    <li>Manufacturing process flowcharts</li>
+                    <li>Standard Operating Procedures (SOPs)</li>
+                    <li>Factory location map</li>
+                    <li>Factory layout plan (detailed floor plan)</li>
+                </ul>
+            </div>
+            
+            <div class="content-card">
+                <h3>Personnel</h3>
+                <ul class="styled-list">
+                    <li>Details of Muslim employees (min. 2 in production)</li>
+                    <li>Halal Executive appointment letter & certificate</li>
+                    <li>Internal Halal Committee appointment letters</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7: Common Pitfalls -->
+    <section id="pitfalls">
+        <div class="container">
+            <h2 class="section-title">Common Pitfalls to Avoid</h2>
+            <p class="section-subtitle">Learn from others' mistakes</p>
+            
+            <div class="content-card">
+                <h3>Top 5 Mistakes That Cause Delays or Rejection</h3>
+                <ul class="styled-list warning-list">
+                    <li><strong>Applying before 3-month operational period:</strong> This requirement is absolute and cannot be waived. Plan accordingly.</li>
+                    <li><strong>Incomplete documentation:</strong> Most common rejection reason. Use comprehensive checklists and have consultant review.</li>
+                    <li><strong>Non-recognized halal certificates:</strong> Using ingredients certified by bodies not on JAKIM's recognized list invalidates the application.</li>
+                    <li><strong>Paper-only HAS implementation:</strong> Auditors verify actual practice, not just documentation. System must be genuinely implemented.</li>
+                    <li><strong>Underqualified Halal Executive:</strong> This role requires specific credentials and cannot be filled by just any employee.</li>
+                </ul>
+            </div>
+            
+            <div class="content-card">
+                <h3>How to Avoid These Mistakes</h3>
+                <ul class="styled-list">
+                    <li>Engage experienced halal consultant from day one</li>
+                    <li>Start ingredient supplier vetting 6+ months early</li>
+                    <li>Conduct multiple mock audits before official JAKIM visit</li>
+                    <li>Invest in hiring properly qualified personnel (Halal Executive, Resident Director)</li>
+                    <li>Build real, functioning systems - not just documentation</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 8: Consultant Value -->
+    <section id="consultant">
+        <div class="container">
+            <h2 class="section-title">Why Engage a Halal Consultant?</h2>
+            <p class="section-subtitle">Professional guidance as strategic investment</p>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 2rem 0;">
+                <div class="content-card">
+                    <h3>Services Provided</h3>
+                    <ul class="styled-list">
+                        <li>Initial gap analysis & readiness assessment</li>
+                        <li>HAS development & complete documentation</li>
+                        <li>Application management via MYeHALAL portal</li>
+                        <li>Pre-audit inspection (mock audit)</li>
+                        <li>HPB-certified Halal Executive training</li>
+                        <li>NCR resolution support</li>
+                        <li>Ongoing compliance guidance</li>
+                    </ul>
+                </div>
+                
+                <div class="content-card">
+                    <h3>Return on Investment</h3>
+                    <ul class="styled-list">
+                        <li>Avoid costly delays & rejections</li>
+                        <li>Accelerated timeline (leverage experience)</li>
+                        <li>Higher first-time approval rate</li>
+                        <li>Risk mitigation & compliance assurance</li>
+                        <li>Expert navigation of bureaucracy</li>
+                        <li>Access to JAKIM-recognized training</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="highlight-box">
+                <h4>💰 Investment: RM 80,000 - 120,000 for comprehensive package</h4>
+                <p>While significant, this investment prevents the far greater cost of failed audits, rejected applications, and delayed market entry. Each month of delay represents lost revenue and ongoing operational costs without market access.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 9: Next Steps -->
+    <section id="next-steps">
+        <div class="container">
+            <h2 class="section-title">Recommended Next Steps</h2>
+            <p class="section-subtitle">What HH Herb & Health should do now</p>
+            
+            <div class="action-grid">
+                <div class="action-card">
+                    <h4>📅 Immediate (This Month)</h4>
+                    <ol>
+                        <li>Review complete research documentation</li>
+                        <li>Allocate budget (RM 650k-1.25M)</li>
+                        <li>Decide: Engage consultant or DIY?</li>
+                        <li>Begin Resident Director search</li>
+                    </ol>
+                </div>
+                
+                <div class="action-card">
+                    <h4>📅 Next 2 Months</h4>
+                    <ol>
+                        <li>Register Sdn Bhd with SSM</li>
+                        <li>Engage halal consultant (recommended)</li>
+                        <li>Start NPRA notification process</li>
+                        <li>Begin ingredient supplier vetting</li>
+                    </ol>
+                </div>
+                
+                <div class="action-card">
+                    <h4>📅 Months 3-5</h4>
+                    <ol>
+                        <li>Recruit qualified Halal Executive</li>
+                        <li>Form Internal Halal Committee</li>
+                        <li>Develop HAS system & documentation</li>
+                        <li>Complete facility setup & GMP compliance</li>
+                    </ol>
+                </div>
+                
+                <div class="action-card">
+                    <h4>📅 Months 6-9</h4>
+                    <ol>
+                        <li>Operate factory for mandatory 3 months</li>
+                        <li>Submit JAKIM application via MYeHALAL</li>
+                        <li>Conduct final mock audit preparation</li>
+                        <li>Complete on-site audit & obtain certification</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="https://docs.google.com/document/d/1qXe_xrRv3O5LVZ1UUk7THpnetNQmpdbVL50zuI5_syU/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="cta-button">📄 Access Full Research Documentation</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Loading screen
+        window.addEventListener('load', function() {
+            setTimeout(() => {
+                document.getElementById('loader').classList.add('hidden');
+            }, 500);
+        });
+
+        // Toggle phase content
+        function togglePhase(header) {
+            const content = header.nextElementSibling;
+            const toggle = header.querySelector('.phase-toggle');
+            
+            if (content.classList.contains('active')) {
+                content.classList.remove('active');
+                toggle.textContent = '+';
+            } else {
+                // Close all other phases
+                document.querySelectorAll('.phase-content.active').forEach(activeContent => {
+                    activeContent.classList.remove('active');
+                    activeContent.previousElementSibling.querySelector('.phase-toggle').textContent = '+';
+                });
+                
+                content.classList.add('active');
+                toggle.textContent = '−';
+            }
+        }
+        
+        // Smooth scroll for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const navHeight = document.getElementById('navbar').offsetHeight;
+                    const targetPosition = target.offsetTop - navHeight - 20;
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
